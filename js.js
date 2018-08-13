@@ -17,3 +17,5 @@ arrayOfNumbers.splice(2,1);
 arrayOfNumbers.splice(1,1);
 
 document.getElementById("another").textContent=arrayOfNumbers;
+
+// CORRECT!!!! From Kenn
