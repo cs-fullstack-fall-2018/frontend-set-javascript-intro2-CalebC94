@@ -13,7 +13,7 @@ var arrayOfNumbers = [94,13,10,22,9];
 
 document.getElementById("thisToo").textContent= arrayOfNumbers;
 
-arrayOfNumbers.pop([1]);
-arrayOfNumbers.pop([3]);
+arrayOfNumbers.splice(2,1);
+arrayOfNumbers.splice(1,1);
 
 document.getElementById("another").textContent=arrayOfNumbers;
